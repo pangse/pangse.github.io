@@ -1,9 +1,3 @@
-#google adsense
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9541475949143344"
-     crossorigin="anonymous"></script>
-
-     
 ## 강의 제목
 
 ### 1. 강의 중간 제목
