@@ -54,4 +54,62 @@ css 클래스를 만든 후, 마크다운 파일로 와서 이미지에 적용�
 
 
 
+~~~javascript
+def func(a,b):
+    return a+b
+
+print(func(a,b))
+~~~
+
+
+
+~~~xml
+<mvc:View controllerName="sap.btp.hellowordui5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <IllustratedMessage id="ilm1" enableVerticalResponsiveness="true" illustrationType="sapIllus-SuccessBalloon">
+            <additionalContent>
+                <Button id="but1" text="Alert" class="sapUiSmallMarginBottom" press=".onAlertMessageBoxPress" width="280px" ariaHasPopup="Dialog"/>
+            </additionalContent>
+        </IllustratedMessage>
+        <content />
+    </Page>
+</mvc:View>
+
+~~~
+
+
+~~~json
+{
+  "xsappname": "sapbtphellowordui5",
+  "tenant-mode": "dedicated",
+  "description": "Security profile of called application",
+  "scopes": [
+    {
+        "name": "uaa.user",
+        "description": "UAA"
+    }
+    ,
+    {
+        "name": "$XSAPPNAME.Viewer",
+        "description": "Viewer"
+    },
+    {
+        "name": "$XSAPPNAME.Admin",
+        "description": "Administrator"
+    }
+  ],
+}
+
+~~~
+
+
+11. 표 Permalink
+
+| --- | NumPy | PyTorch |
+| --- | --- | --- |
+| 1 | 2 | 3 |
+| 4 | 5 | 6 |
+| 7 | 8 | 9 |
 
